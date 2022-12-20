@@ -322,17 +322,6 @@ hr {
   color: rgba(0, 0, 0, 0.12);
 }
 
-.logo {
-  height: 44px;
-  padding-top: 1px;
-  padding-right: 10px;
-}
-
-#pgTitle {
-  font-size: 24px;
-  letter-spacing: 0em;
-}
-
 .nav-footer {
   width: 100%;
   min-width: 100%;
@@ -354,8 +343,23 @@ hr {
   border-top: 1px dashed;
 }
 
+.logo-container {
+  display: flex;
+}
+
+.logo-container img {
+  height: 40px;  
+}
+
+.logo-container span {
+  padding: 8px 0px 0px 12px;
+  font-size: 24px;
+  letter-spacing: 0em;
+}
+
+
 @media screen and (max-width: 1024px) {
-  #pgTitle {
+  .logo-container {
     margin-left: 40px;
   }
 }
