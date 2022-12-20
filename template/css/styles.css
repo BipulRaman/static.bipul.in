@@ -143,6 +143,15 @@ h6 {
   font-weight: 400;
 }
 
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
 .post-outer {
   text-align: justify;
 }
@@ -284,12 +293,14 @@ h6 {
   margin-right: 32px;
 }
 
-.mdl-layout__header{
+.mdl-layout__header {
   min-height: 55px;
 }
-.mdl-layout__header-row{
- height: 55px;
+
+.mdl-layout__header-row {
+  height: 55px;
 }
+
 .mdl-layout__header-row .mdl-navigation__link {
   line-height: 50px;
 }
@@ -347,7 +358,7 @@ hr {
 }
 
 .logo-container img {
-  height: 40px;  
+  height: 40px;
 }
 
 .logo-container span {
