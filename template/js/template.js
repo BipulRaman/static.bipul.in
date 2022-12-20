@@ -1,5 +1,4 @@
 const DIV_ID_LEFT_NAV = 'leftNav';
-const DIV_ID_CORNER_NAV = 'cornerNav';
 
 window.onload = function () {
     highlightNavigation();
@@ -19,9 +18,7 @@ function updateLinkShowAllPosts() {
 
 function highlightNavigation() {
     var leftNavLinks = document.getElementById(DIV_ID_LEFT_NAV).getElementsByTagName('a');
-    var cornerNavLinks = document.getElementById(DIV_ID_CORNER_NAV).getElementsByTagName('a');
-    var links = Array.from(leftNavLinks).concat(Array.from(cornerNavLinks));
-    links.forEach(link => {
+    Array.from(leftNavLinks).forEach(link => {
         if (document.URL.includes(link.href)) {
             link.style.background = '#e0e0e0';
         }
