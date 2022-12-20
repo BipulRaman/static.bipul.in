@@ -262,7 +262,6 @@ h6 {
   gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(32px, 32px));
   justify-content: center;
-  margin-bottom: 10px;
 }
 
 .social-icon {
