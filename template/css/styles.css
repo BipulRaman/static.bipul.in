@@ -148,8 +148,13 @@ pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f6f8fa;
+  background-color: #f5f5f5;
   border-radius: 6px;
+}
+
+code {
+  background-color: #f5f5f5;
+  padding: 2px 4px;
 }
 
 .post-outer {
