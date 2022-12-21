@@ -405,6 +405,10 @@ hr {
     padding: 0px 6% 20px 6%;
   }
 
+  .global-footer span, .global-footer a{
+    font-size: 14px;
+  }   
+
   .mdl-layout {
     height: 100vh;
   }
