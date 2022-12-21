@@ -297,7 +297,7 @@ code {
 
 .mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row {
   padding-left: 0px;
-  padding-right: 70px;
+  padding-right: 0px;
 }
 
 .demo-navigation .mdl-navigation__link .material-icons {
@@ -327,7 +327,7 @@ code {
 
 .mdl-layout__drawer-button{
   left: auto;
-  right: 0px;
+  right: 15px;
 }
 
 .demo-layout .mdl-layout__header .mdl-layout__drawer-button {
@@ -372,6 +372,7 @@ hr {
 
 .logo-container {
   display: flex;
+  margin-left: 8px;
 }
 
 .logo-container img {
@@ -385,10 +386,17 @@ hr {
 }
 
 .login-button {
-  margin-right: 35px;
+  margin-right: 68px;
 }
 
 @media screen and (min-width: 1025px) {
+  .logo-container {
+    margin-left: 0px;
+  }
+  .login-button {
+    margin-right: 28px;
+  }
+
   .abt-card {
     margin: 10px 5%;
   }
