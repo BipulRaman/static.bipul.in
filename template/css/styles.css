@@ -297,6 +297,7 @@ code {
 
 .mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row {
   padding-left: 0px;
+  padding-right: 70px;
 }
 
 .demo-navigation .mdl-navigation__link .material-icons {
@@ -385,12 +386,6 @@ hr {
 
 .login-button {
   margin-right: 35px;
-}
-
-@media screen and (max-width: 1024px) {
-  .logo-container {
-    margin-left: 40px;
-  }
 }
 
 @media screen and (min-width: 1025px) {
