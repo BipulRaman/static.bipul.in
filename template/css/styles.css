@@ -260,6 +260,11 @@ code {
   padding: 0px 18px 18px 18px;
 }
 
+.global-footer span,
+.global-footer a {
+  font-size: 14px;
+}
+
 .demo-card {
   background-color: white;
   color: #37474f;
@@ -325,7 +330,7 @@ code {
   background-color: #ffffff;
 }
 
-.mdl-layout__drawer-button{
+.mdl-layout__drawer-button {
   left: auto;
   right: 15px;
 }
@@ -393,6 +398,7 @@ hr {
   .logo-container {
     margin-left: 0px;
   }
+
   .login-button {
     margin-right: 28px;
   }
@@ -405,9 +411,6 @@ hr {
     padding: 0px 6% 20px 6%;
   }
 
-  .global-footer span, .global-footer a{
-    font-size: 14px;
-  }   
 
   .mdl-layout {
     height: 100vh;
