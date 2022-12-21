@@ -324,6 +324,11 @@ code {
   background-color: #ffffff;
 }
 
+.mdl-layout__drawer-button{
+  left: auto;
+  right: 0px;
+}
+
 .demo-layout .mdl-layout__header .mdl-layout__drawer-button {
   color: #ffffff;
 }
@@ -378,6 +383,9 @@ hr {
   letter-spacing: 0em;
 }
 
+.login-button {
+  margin-right: 35px;
+}
 
 @media screen and (max-width: 1024px) {
   .logo-container {
